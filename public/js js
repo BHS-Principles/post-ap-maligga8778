@@ -1,0 +1,13 @@
+var List = [
+    "marmalade", 
+    "booster",
+    "awsomeness"
+];
+
+var BTN = document.getElementById("myButton");
+
+for(var i = 0; i < 3; i++){
+    var newBTN = "my sweet sweetness!";
+    document.body.append(newBTN);
+    alert("check me OUT!!" + List[i]);
+}
